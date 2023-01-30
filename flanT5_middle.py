@@ -1,6 +1,6 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-prompt = input("Put in your prompt:")
+prompt = input("Put in your prompt: ")
 
 model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-large")
 tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
